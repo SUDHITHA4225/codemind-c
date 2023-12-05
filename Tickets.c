@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int x;
+    int x,c;
     scanf("%d",&x);
-    if(4*x<=1000)
+    c=(4*x);
+    if(c<=1000)
     {
         printf("YES");
     }
